@@ -1,0 +1,19 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby build && gatsby serve",
+    "docker:develop": "gatsby develop --host 0.0.0.0 --port 80 --verbose",
+    "docker:serve": "yarn build && gatsby serve --host 0.0.0.0 --port 80 --verbose"
+  },
+  "dependencies": {
+    "gatsby": "^2.20.31",
+    "gatsby-plugin-sitemap": "^2.4.3",
+    "gatsby-source-brandy": "^0.10.12",
+    "gatsby-theme-contentful": "^0.29.4"
+  }
+}

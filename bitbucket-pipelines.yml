@@ -1,0 +1,17 @@
+image: quay.io/cldevops/pipeline-tools
+options:
+  docker: true
+clone:
+  depth: full
+
+step_definitions:
+- mirror_to_github: &mirror_to_github
+    name: mirror_to_github
+    script:
+    - export MIRROR_TO_GITHUB=true
+    - make mirror-to-github
+
+pipelines:
+  branches:
+    master:
+    - step: *mirror_to_github

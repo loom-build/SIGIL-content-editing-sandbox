@@ -1,0 +1,8 @@
+{
+  "name": "gatsby-theme-content-editing-sandbox",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby-theme-leshen": "^0.28.4"
+  }
+}

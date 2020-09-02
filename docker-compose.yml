@@ -1,0 +1,22 @@
+version: "3"
+
+networks:
+  default:
+    external:
+      name: docker-dev
+
+services:
+
+  app:
+    image: gatsby:dev
+    volumes:
+    - ./:/app:cached
+    working_dir: /app
+    ports:
+    - "${sandbox_PORT:-3314}:80"
+    environment:
+      VIRTUAL_HOST: sandbox.local
+    networks:
+      default:
+        aliases:
+        - sandbox.local
