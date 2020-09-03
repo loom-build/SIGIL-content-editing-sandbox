@@ -17,5 +17,5 @@ chmod 400 /root/.ssh/id_rsa
 ssh-add /root/.ssh/id_rsa
 ssh-keyscan github.com >> /root/.ssh/known_hosts
 git fetch --all
-git remote add github git@github.com:clearlink/gatsby-preview-YOUR-REPOSITORY.git
+git remote add github git@github.com:loom-build/SIGIL-content-editing-sandbox.git
 git push github $BITBUCKET_BRANCH -f
