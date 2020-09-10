@@ -1,4 +1,5 @@
 import React from 'react'
+import 'typeface-averta'
 
 import ThemeProvider from 'gatsby-theme-leshen/src/components/ThemeProvider'
 import siteTheme from '../../theme'
