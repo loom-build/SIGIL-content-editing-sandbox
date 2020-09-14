@@ -2,9 +2,7 @@ import React from 'react'
 import { Layout } from 'gatsby-theme-contentful'
 import { graphql } from 'gatsby'
 
-const DefaultTemplate = ({ data }) => (
-  <Layout data={data} />
-)
+const DefaultTemplate = ({ data }) => <Layout data={data} />
 export default DefaultTemplate
 
 export const query = graphql`

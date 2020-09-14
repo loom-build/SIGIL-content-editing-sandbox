@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "sandbox:develop": "yarn workspace sandbox build",
-    "sandbox:build": "yarn workspace sandbox build"
+    "sandbox:build": "yarn workspace sandbox build",
+    "lint": "eslint . --ext .js,.jsx,.css"
   },
   "devDependencies": {
     "eslint": "^6.6.0",

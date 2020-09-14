@@ -28,7 +28,7 @@ step_definitions:
 pipelines:
   pull-requests:
     "**":
-      - step: *build
+      - step: *lint
   branches:
     master:
     - step: *mirror_to_github
