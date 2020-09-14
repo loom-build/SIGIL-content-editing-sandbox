@@ -5,6 +5,20 @@ clone:
   depth: full
 
 step_definitions:
+- lint: &lint
+    name: Lint
+    image: node:12-buster
+    caches: ["node"]
+    script:
+      - yarn
+      - yarn lint
+- build: &build
+    name: Build
+    image: node:12-buster
+    caches: ["node"]
+    script:
+      - yarn
+      - yarn build
 - mirror_to_github: &mirror_to_github
     name: mirror_to_github
     script:
@@ -12,6 +26,9 @@ step_definitions:
     - make mirror-to-github
 
 pipelines:
+  pull-requests:
+    "**":
+      - step: *build
   branches:
     master:
     - step: *mirror_to_github
