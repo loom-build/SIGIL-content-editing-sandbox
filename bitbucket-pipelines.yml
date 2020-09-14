@@ -18,7 +18,7 @@ step_definitions:
     caches: ["node"]
     script:
       - yarn
-      - yarn build
+      - yarn sandbox:build
 - mirror_to_github: &mirror_to_github
     name: mirror_to_github
     script:

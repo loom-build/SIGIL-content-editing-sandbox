@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Clearlink CMS",
   "private": true,
+  "scripts": {
+    "sandbox:develop": "yarn workspace sandbox build",
+    "sandbox:build": "yarn workspace sandbox build"
+  },
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
