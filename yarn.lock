@@ -1620,20 +1620,20 @@
     "@babel/runtime" "^7.7.2"
     core-js "^3.4.1"
 
-"@leshen/emily@^1.1.8":
-  version "1.1.8"
-  resolved "https://npm.clearlink.com/@leshen%2femily/-/emily-1.1.8.tgz#7e60eb5840b7474c677814cdf5128a651fb8c9fd"
-  integrity sha512-sMGYHVtuQqdyjlKfmtT0tZuuL006UO4Z7DPJ9HqBcL01vKA0j6y6FQXPYZCcKrf0oNIZa1pENhTRhEm8xtl4CA==
+"@leshen/emily@^1.3.3":
+  version "1.3.3"
+  resolved "https://npm.clearlink.com/@leshen%2femily/-/emily-1.3.3.tgz#144e5d5315f7fa0e1e902886b66c9b02ca43f801"
+  integrity sha512-lLoisUjQzEANSy9bbfEiX1Y/MximkBO0CqS2xaE5o5mVRe4uV6i6gf7JVFlr2KhP83MrKgVa54lmfp8RF6Nq0g==
 
-"@leshen/lapi@^1.1.8":
-  version "1.1.8"
-  resolved "https://npm.clearlink.com/@leshen%2flapi/-/lapi-1.1.8.tgz#b06ae915ae368d17173fecb0b15204ea09d7b111"
-  integrity sha512-YNguWiJGUkCd64TeLN06kWqOa6Hd+SpiEVx14Y0WE9Oz8eUyB1BU9XVEetzIukcxqFLcOE0lAVo7jNzmfrGoxQ==
+"@leshen/lapi@^1.1.24":
+  version "1.1.24"
+  resolved "https://npm.clearlink.com/@leshen%2flapi/-/lapi-1.1.24.tgz#2a443eaf054cf50f6cf9ace884e59f59a40bd26f"
+  integrity sha512-i2w8nXF8EqPW0w1RPr+/zMwnbPsJcRyyWowmQdVekDb5xIsolhT9wmiv42W01LnommsW/+/C6J57GhuJjz8hBw==
 
-"@leshen/tcpa@^1.1.8":
-  version "1.1.8"
-  resolved "https://npm.clearlink.com/@leshen%2ftcpa/-/tcpa-1.1.8.tgz#24505af7ba8b58522721e73d8295537c2dad431c"
-  integrity sha512-wriT1aOvRHXg21yBCG6kk7NkZ9eUB2hhLbsMCOGzVfN2xbzJ+JSitcEs5Ib8K0gs1jPJPTRALK+nDNL/3hJhxA==
+"@leshen/tcpa@^1.1.24":
+  version "1.1.24"
+  resolved "https://npm.clearlink.com/@leshen%2ftcpa/-/tcpa-1.1.24.tgz#a4aa22496bd789da312cb57fe69320e533e8c19d"
+  integrity sha512-r1N/YLLOH+9StcpoYlysIBCF3WG88YuN6/cqrZlnMCF+t7l3C1t7LUbmmV5OzDwLPelW+nz9IyV8Fyi51DVfpQ==
 
 "@mdx-js/mdx@^2.0.0-next.4", "@mdx-js/mdx@^2.0.0-next.7":
   version "2.0.0-next.7"
@@ -7160,10 +7160,10 @@ gatsby-recipes@^0.2.20:
     yoga-layout-prebuilt "^1.9.6"
     yup "^0.27.0"
 
-gatsby-source-brandy@^0.10.12:
-  version "0.10.12"
-  resolved "https://npm.clearlink.com/gatsby-source-brandy/-/gatsby-source-brandy-0.10.12.tgz#e7aec08f4f88e6ae5a24065106c367a9251548ca"
-  integrity sha512-POWRITQL284NX0JsFN+6BJ1eIOBVnA68RFmZF3BJXIwH7EFdr40OPcrQ5Rm68zygVJtDiyxYMabb+nR7km2fug==
+gatsby-source-brandy@^0.10.28:
+  version "0.10.28"
+  resolved "https://npm.clearlink.com/gatsby-source-brandy/-/gatsby-source-brandy-0.10.28.tgz#4cf635f23acba0ff8c02a7dcc27414dc313767ff"
+  integrity sha512-TmLYHGSQ31pwNDfXGmSdr4miNefM/gISZrRo3hoC3SVMkvB4hgPk9Oh/ZlWNTckNSJE73fRSIodhVopf+tF/YQ==
   dependencies:
     axios "^0.19.0"
     hast-util-sanitize "^2.0.2"
@@ -7233,10 +7233,10 @@ gatsby-telemetry@^1.2.6, gatsby-telemetry@^1.3.30:
     node-fetch "^2.6.0"
     uuid "^8.3.0"
 
-gatsby-theme-contentful@^0.29.4:
-  version "0.29.4"
-  resolved "https://npm.clearlink.com/gatsby-theme-contentful/-/gatsby-theme-contentful-0.29.4.tgz#598191bfdbe2c53957e820d852a1e5e0516e74f5"
-  integrity sha512-WtTHR3jKxgsp+nao1uwOHwH8fDIpLx2x21JKn8YfBmfSlrmJyxjCnMy2t+FEuSPkNpAKumvyyCf7bbEzQWotog==
+gatsby-theme-contentful@^0.36.1:
+  version "0.36.1"
+  resolved "https://npm.clearlink.com/gatsby-theme-contentful/-/gatsby-theme-contentful-0.36.1.tgz#4b664ee587f5c251bab9ce9310486c4767a52f58"
+  integrity sha512-HwDLYNFeFKyJCk0d8g0AUyeQkuIZFEHL2P67rdPnIzDPtu5yQOsu0Fr8Yi1N68BXeqlXfncHKhO+l0OcE46GmQ==
   dependencies:
     "@contentful/rich-text-html-renderer" "^13.4.0"
     "@contentful/rich-text-react-renderer" "^13.4.0"
@@ -7244,10 +7244,10 @@ gatsby-theme-contentful@^0.29.4:
     gatsby-source-contentful "2.1.73"
     lodash.get "^4.4.2"
 
-gatsby-theme-leshen@^0.28.4:
-  version "0.28.4"
-  resolved "https://npm.clearlink.com/gatsby-theme-leshen/-/gatsby-theme-leshen-0.28.4.tgz#bdaba45c9cd7e7130cd8c9ca4454d6b5d17e948a"
-  integrity sha512-2wDP3RK35wZjkfROK04n+lhc4KOKNgz/KxI5N+lPxCmus4kTXfCbskjhNN5zEOPys6+ebGX/QsK7q/fSxJM6ZA==
+gatsby-theme-leshen@^0.36.2:
+  version "0.36.2"
+  resolved "https://npm.clearlink.com/gatsby-theme-leshen/-/gatsby-theme-leshen-0.36.2.tgz#605da0af511e3174b03e87432bb7a13f7cd975a8"
+  integrity sha512-Y1k/qBwIiuSxpQHoWwU50ZFRwbq3H4pfHOAuXqudhMxtCuHy0VQzkLNyb+OJSRt66pW2VOkW66OWGfM5Tr5Gng==
   dependencies:
     "@emotion/core" "^10.0.4"
     "@emotion/styled" "^10.0.4"
@@ -7282,13 +7282,13 @@ gatsby-theme-leshen@^0.28.4:
     react-final-form "^6.5.0"
     react-helmet "^5.2.0"
     react-hook-inview "^4.2.0"
+    smoothscroll-polyfill "^0.4.4"
     svgo "^1.3.0"
     typeface-almendra "^0.0.69"
     typeface-averta "^1.0.3"
     typeface-montserrat "^0.0.75"
     typeface-titillium-web "^0.0.72"
     use-debounce "^3.4.0"
-    uuid "^3.3.2"
 
 gatsby-theme@^0.0.12:
   version "0.0.12"
@@ -13691,6 +13691,11 @@ slugify@^1.4.0, slugify@^1.4.4:
   version "1.4.5"
   resolved "https://npm.clearlink.com/slugify/-/slugify-1.4.5.tgz#a7517acf5f4c02a4df41e735354b660a4ed1efcf"
   integrity sha512-WpECLAgYaxHoEAJ8Q1Lo8HOs1ngn7LN7QjXgOLbmmfkcWvosyk4ZTXkTzKyhngK640USTZUlgoQJfED1kz5fnQ==
+
+smoothscroll-polyfill@^0.4.4:
+  version "0.4.4"
+  resolved "https://npm.clearlink.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"

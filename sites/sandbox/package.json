@@ -13,7 +13,7 @@
   "dependencies": {
     "gatsby": "^2.20.31",
     "gatsby-plugin-sitemap": "^2.4.3",
-    "gatsby-source-brandy": "^0.10.12",
-    "gatsby-theme-contentful": "^0.29.4"
+    "gatsby-source-brandy": "^0.10.28",
+    "gatsby-theme-contentful": "^0.36.1"
   }
 }

@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "gatsby-theme-leshen": "^0.28.4"
+    "gatsby-theme-leshen": "^0.36.2"
   }
 }
