@@ -8,5 +8,12 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'react/prop-types': 0,
     'react/jsx-props-no-spreading': 0,
+    'react/jsx-wrap-multilines': [
+      'warn',
+      {
+        declaration: false,
+        assignment: false,
+      },
+    ],
   },
 }
