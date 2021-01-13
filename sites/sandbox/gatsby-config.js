@@ -20,7 +20,7 @@ module.exports = {
       options: config,
     },
     {
-      resolve: 'gatsby-theme-contentful',
+      resolve: '@leshen/gatsby-theme-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
