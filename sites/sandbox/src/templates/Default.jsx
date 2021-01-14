@@ -1,6 +1,6 @@
 import React from 'react'
-import { Layout } from 'gatsby-theme-contentful'
-import { Header, Footer, Link } from 'gatsby-theme-leshen'
+import { Layout } from '@leshen/gatsby-theme-contentful'
+import { Header, Footer, Link } from '@leshen/gatsby-theme-leshen'
 import { graphql } from 'gatsby'
 import headerLogo from '../images/clearlink-logo.png'
 import {

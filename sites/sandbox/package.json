@@ -11,9 +11,8 @@
     "docker:serve": "yarn build && gatsby serve --host 0.0.0.0 --port 80 --verbose"
   },
   "dependencies": {
-    "gatsby": "^2.20.31",
-    "gatsby-plugin-sitemap": "^2.4.3",
-    "gatsby-source-brandy": "^0.10.28",
-    "gatsby-theme-contentful": "^0.36.1"
+    "@leshen/gatsby-theme-contentful": "^1.0.0-beta.6",
+    "gatsby": "2.28.1",
+    "gatsby-plugin-sitemap": "^2.4.3"
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import 'typeface-averta'
 
-import ThemeProvider from 'gatsby-theme-leshen/src/components/ThemeProvider'
+import ThemeProvider from '@leshen/gatsby-theme-leshen/src/components/ThemeProvider'
 import siteTheme from '../../theme'
 
 const Wrapper = ({ children }) => {

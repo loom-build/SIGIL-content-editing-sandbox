@@ -24,10 +24,8 @@
     "gatsby-theme-content-editing-sandbox"
   ],
   "dependencies": {
-    "@leshen/emily": "^1.3.3",
-    "@leshen/lapi": "^1.1.24",
-    "@leshen/tcpa": "^1.1.24",
     "dotenv": "^8.2.0",
+    "gatsby-source-brandy": "^1.0.0-beta.1",
     "typeface-averta": "^1.0.3"
   }
 }

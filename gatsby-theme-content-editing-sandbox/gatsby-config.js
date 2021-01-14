@@ -1,7 +1,7 @@
 module.exports = options => ({
   plugins: [
     {
-      resolve: 'gatsby-theme-leshen',
+      resolve: '@leshen/gatsby-theme-leshen',
       options,
     },
   ],
