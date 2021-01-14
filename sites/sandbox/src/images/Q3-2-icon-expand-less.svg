@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Bits/Icons/Navigation/icon-expand_more Copy</title>
+    <defs>
+        <polygon id="path-1" points="7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"></polygon>
+    </defs>
+    <g id="Bits/Icons/Navigation/icon-expand_more-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounds" x="0" y="0" width="24" height="24"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="expand_more" fill="#fff" xlink:href="#path-1"></use>
+    </g>
+</svg>
