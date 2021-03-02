@@ -31,6 +31,9 @@ const DefaultTemplate = ({ data }) => (
       <Footer
         logo={<img src={headerLogo} alt="Clearlink Logo" />}
         navData={footerNavItems}
+        disclaimers={data.contentfulPage?.template?.footerDisclaimers?.map(
+          disclaimer => disclaimer.brandy
+        )}
       />
     }
   />

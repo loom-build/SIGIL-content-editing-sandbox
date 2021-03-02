@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.css"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.13.8",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
@@ -25,7 +26,7 @@
   ],
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby-source-brandy": "^1.0.0-beta.1",
+    "gatsby-source-brandy": "^1.0.0-beta.9",
     "typeface-averta": "^1.0.3"
   }
 }
