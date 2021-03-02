@@ -62,7 +62,7 @@ const ContentStrategyTemplate = ({ data }) => {
           logo={<img src={headerLogo} alt="Clearlink Logo" />}
           navData={footerNavItems}
           disclaimers={data.contentfulPage?.template?.footerDisclaimers?.map(
-            (disclaimer) => disclaimer.brandy
+            disclaimer => disclaimer.brandy
           )}
         />
       }
